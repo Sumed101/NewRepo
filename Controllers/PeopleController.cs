@@ -13,11 +13,11 @@ namespace sumedStudyGroup.Controllers
         {
             List<Models.MyClass> people = new List<Models.MyClass>();
 
-            people.Add(new Models.MyClass { StudentNumber = "u23788918", Name = "Sumed", Surname = "Alekar", EmailAddress = "sumedalekar@gmail.com" });
-            people.Add(new Models.MyClass { StudentNumber = "u23624521", Name = "Marcus", Surname = "Rivera", EmailAddress = "marcusrivera@gmail.com" });
-            people.Add(new Models.MyClass { StudentNumber = "u24597729", Name = "Sophia", Surname = "Mitchell", EmailAddress = "sophiamitchell@gmail.com" });
-            people.Add(new Models.MyClass { StudentNumber = "u24116514", Name = "Ethan", Surname = "Harris", EmailAddress = "ethanharris@gmail.com" });
-            people.Add(new Models.MyClass { StudentNumber = "u23010523", Name = "Lily", Surname = "Parker", EmailAddress = "lilyparker@gmail.com" });
+            people.Add(new Models.MyClass { StudentNumber = "u23788918", Name = "Sumed", Surname = "Alekar", EmailAddress = "u23788918@tuks.co.za" });
+            people.Add(new Models.MyClass { StudentNumber = "u24781569", Name = "Kesivan", Surname = "Naidoo", EmailAddress = "u24781569@tuks.co.za" });
+            people.Add(new Models.MyClass { StudentNumber = "u24728782", Name = "Marques", Surname = "Jaboon", EmailAddress = "u24728782@tuks.co.za" });
+            people.Add(new Models.MyClass { StudentNumber = "u24116514", Name = "Ethan", Surname = "Harris", EmailAddress = "u24116514@tuks.co.za" });
+            people.Add(new Models.MyClass { StudentNumber = "u23010523", Name = "Lily", Surname = "Parker", EmailAddress = "u23010523@tuks.co.za" });
 
             return View(people);
         }

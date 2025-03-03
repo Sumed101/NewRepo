@@ -20,6 +20,9 @@
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("ListPeople", "People")">Study Group</a>
+                    </li>
                 </ul>
             </div>
         </div>
